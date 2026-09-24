@@ -33,28 +33,6 @@ The main objective is to clean the restaurant dataset and perform **Exploratory 
 * **Jupyter Notebook**
 
 ---
-
-## 📊 Dataset Columns
-
-The dataset contains restaurant-related information such as:
-
-| Column           | Description                  |
-| ---------------- | ---------------------------- |
-| `OrderId`        | Unique order identifier      |
-| `RestaurantName` | Name of restaurant           |
-| `RestaurantType` | Type of restaurant           |
-| `Rating`         | Restaurant rating            |
-| `No_of_Rating`   | Number of ratings            |
-| `AverageCost`    | Average cost                 |
-| `OnlineOrder`    | Online ordering availability |
-| `TableBooking`   | Table booking availability   |
-| `CuisinesType`   | Cuisine type                 |
-| `Area`           | Restaurant area              |
-| `LocalAddress`   | Local address                |
-| `Delivery_time`  | Delivery time in minutes     |
-
----
-
 ## 🔍 Data Cleaning
 
 The following data-cleaning steps were performed:
@@ -71,80 +49,7 @@ The following data-cleaning steps were performed:
 
 ---
 
-## 📈 Exploratory Data Analysis
 
-### 1. Top 10 Restaurant Types
-
-Analyzed the number of restaurants for each restaurant type and visualized the top 10 restaurant types using a bar chart.
-
-### 2. Online Ordering Analysis
-
-Compared restaurant types based on:
-
-* Restaurants offering online orders
-* Restaurants without online orders
-
-### 3. Delivery Time by Area
-
-Analyzed the **top 10 areas with the highest average delivery time**.
-
-### 4. Delivery Time by Restaurant Type
-
-Calculated the average delivery time for different restaurant types.
-
-### 5. Fastest and Slowest Cuisine Types
-
-Identified:
-
-* 5 fastest cuisine types
-* 5 slowest cuisine types
-
-based on average delivery time.
-
-### 6. Delivery Time Range Analysis
-
-Delivery time was divided into ranges:
-
-* 0–20 minutes
-* 21–30 minutes
-* 31–40 minutes
-* 41–50 minutes
-* 51–60 minutes
-* 60+ minutes
-
-This helps understand the overall distribution of restaurant delivery times.
-
-### 7. Delivery Time Distribution
-
-A histogram was used to understand the distribution of delivery times.
-
----
-
-## 📊 Relationship Analysis
-
-### Restaurant Rating vs Delivery Time
-
-A scatter plot was created to investigate whether higher restaurant ratings are associated with faster delivery.
-
-### Average Cost vs Delivery Time
-
-A scatter plot was used to analyze whether restaurant average cost affects delivery time.
-
-**Insight:** The analysis shows no strong visible relationship between average cost and delivery time. Higher-cost restaurants do not necessarily have faster or slower delivery.
-
-### Number of Ratings vs Delivery Time
-
-A scatter plot was created to analyze whether the number of restaurant ratings is related to delivery time.
-
-### Online Ordering vs Delivery Time
-
-Average delivery time was compared between restaurants with and without online ordering.
-
-### Long Delivery Time Analysis
-
-Restaurants with delivery time greater than **45 minutes** were filtered to identify the top areas having restaurants with long delivery times.
-
----
 
 ## 📌 Key Business Questions
 
@@ -171,41 +76,7 @@ Zomato-Data-Analysis/
 ├── Project_jomato.ipynb
 ├── Zomato.csv
 └── README.md
-```
 
----
-
-## 🚀 How to Run the Project
-
-### 1. Clone the repository
-
-```bash
-git clone <your-github-repository-url>
-```
-
-### 2. Open the project
-
-Open:
-
-```text
-Project_jomato.ipynb
-```
-
-in Jupyter Notebook or JupyterLab.
-
-### 3. Install required libraries
-
-```bash
-pip install pandas matplotlib sqlalchemy pyodbc
-```
-
-### 4. Configure SQL Server
-
-The notebook loads the Zomato data from SQL Server using SQLAlchemy.
-
-Update the database connection according to your SQL Server configuration before running the notebook.
-
----
 
 ## 📌 Project Outcome
 
