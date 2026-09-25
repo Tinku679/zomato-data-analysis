@@ -90,9 +90,10 @@ This project demonstrates practical skills in:
 * Business Question Analysis
 * SQL Server Integration
 * Python Data Analysis
-
+# Understand → Inspect → Clean → Validate → EDA → Visualize → Find Insights → Business Recommendation
 ---
-
+#recommendation
+Based on my analysis, I identified the areas where performance was declining. I recommended focusing on those areas, analyzing the underlying reasons, and taking targeted business actions such as improving promotions, pricing, or customer engagement
 ## 👨‍💻 Author
 
 **Tinku Payal**
